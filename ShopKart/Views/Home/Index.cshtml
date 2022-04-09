@@ -1,8 +1,16 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<asp:Content ID="contentHead" ContentPlaceHolderID="head" runat="server">
+    <link href="styles/StyleSheet.css" rel="stylesheet" />
+</asp:Content>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1>Welcome</h1>
+
+<div class="container">
+    <img src="images/homepage.jpg" alt="home">
+    <button class="btn">Order Now</button>
 </div>
+
+<h2>About</h2>
+<p>ShopKart is what happens when passionate food lovers get together and decide to share their talents with the world. Everything is made fresh and ready to take on the go at your convenience. Come celebrate togetherness and full-bellies with us, and see why we’ve been known as the best Small Business in the world.</p>
